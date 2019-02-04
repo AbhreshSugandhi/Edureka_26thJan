@@ -1,4 +1,4 @@
-//Synchronization Commands or Wait Commands
+//Synchronization Commands
 
 Errors which we need to handle are:
 	ElementNotVisibleException
