@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="module6.HomePage" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test">
+		<classes>
+			<class name="module6.AboutUs" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="ABC"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="module6.ContactUs" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test">
+		<classes>
+			<class name="module6.Close" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
