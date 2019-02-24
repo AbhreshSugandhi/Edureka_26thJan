@@ -1,18 +1,31 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Parameterization" parallel="tests">
-	
-	<test name="Chrome1">
-		<parameter name="B" value="Chrome"></parameter>
+<suite name="Parallel Execution" parallel="tests">
+	<test name="Browser1">
+	<parameter name="B" value="chrome"></parameter>
 		<classes>
 			<class name="module6.Scenario3"></class>
 		</classes>
 	</test>
 	
-	<test name="Chrome2">
-		<parameter name="B" value="Chrome"></parameter>
+	<test name="Browser2">
+	<parameter name="B" value="chrome"></parameter>
 		<classes>
 			<class name="module6.Scenario3"></class>
 		</classes>
 	</test>
-		
+	
+	<test name="Browser3">
+	<parameter name="B" value="chrome"></parameter>
+		<classes>
+			<class name="module6.Scenario3"></class>
+		</classes>
+	</test>
+	
+	<test name="Browser4">
+	<parameter name="B" value="chrome"></parameter>
+		<classes>
+			<class name="module6.Scenario3"></class>
+		</classes>
+	</test>
+	
 </suite>

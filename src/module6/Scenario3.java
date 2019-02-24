@@ -15,7 +15,7 @@ public class Scenario3 {
 	private WebDriver driver;
 	String URL = "http://www.gmail.com";
 
-	@Parameters ("B")
+	@Parameters("B")
 	@BeforeTest
 	public void openBrowser(String browser) {
 		try {

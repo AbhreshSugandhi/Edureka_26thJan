@@ -1,51 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="12" total="18" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Grouping Example" duration-ms="442" started-at="2019-02-16T17:47:20Z" finished-at="2019-02-16T17:47:20Z">
+  <suite name="Main Test Suite" duration-ms="65476" started-at="2019-02-17T17:20:05Z" finished-at="2019-02-17T17:21:10Z">
     <groups>
-      <group name="Services">
-        <method signature="Grouping.TC5()[pri:0, instance:module6.Grouping@59906517]" name="TC5" class="module6.Grouping"/>
-        <method signature="Grouping.TC8()[pri:0, instance:module6.Grouping@59906517]" name="TC8" class="module6.Grouping"/>
-      </group> <!-- Services -->
-      <group name="HomePage">
-        <method signature="Grouping.TC1()[pri:0, instance:module6.Grouping@2173f6d9]" name="TC1" class="module6.Grouping"/>
-        <method signature="Grouping.TC4()[pri:0, instance:module6.Grouping@2173f6d9]" name="TC4" class="module6.Grouping"/>
-        <method signature="Grouping.TC7()[pri:0, instance:module6.Grouping@2173f6d9]" name="TC7" class="module6.Grouping"/>
-        <method signature="Grouping.TC9()[pri:0, instance:module6.Grouping@2173f6d9]" name="TC9" class="module6.Grouping"/>
-      </group> <!-- HomePage -->
     </groups>
-    <test name="HomePageTest1" duration-ms="183" started-at="2019-02-16T17:47:20Z" finished-at="2019-02-16T17:47:20Z">
-      <class name="module6.Grouping">
-        <test-method status="PASS" signature="TC1()[pri:0, instance:module6.Grouping@2173f6d9]" name="TC1" duration-ms="15" started-at="2019-02-16T17:47:20Z" finished-at="2019-02-16T17:47:20Z">
+    <test name="TestNG Grid" duration-ms="65476" started-at="2019-02-17T17:20:05Z" finished-at="2019-02-17T17:21:10Z">
+      <class name="module7.GridExampleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:module7.GridExampleTest@36b4cef0]" name="setUp" is-config="true" duration-ms="45575" started-at="2019-02-17T17:20:05Z" finished-at="2019-02-17T17:20:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC1 -->
-        <test-method status="PASS" signature="TC4()[pri:0, instance:module6.Grouping@2173f6d9]" name="TC4" duration-ms="2" started-at="2019-02-16T17:47:20Z" finished-at="2019-02-16T17:47:20Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:module7.GridExampleTest@36b4cef0]" name="testGooglePageTitle" duration-ms="14832" started-at="2019-02-17T17:20:51Z" finished-at="2019-02-17T17:21:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC4 -->
-        <test-method status="PASS" signature="TC7()[pri:0, instance:module6.Grouping@2173f6d9]" name="TC7" duration-ms="17" started-at="2019-02-16T17:47:20Z" finished-at="2019-02-16T17:47:20Z">
+        </test-method> <!-- testGooglePageTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module7.GridExampleTest@36b4cef0]" name="closeBrowser" is-config="true" duration-ms="4743" started-at="2019-02-17T17:21:06Z" finished-at="2019-02-17T17:21:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC7 -->
-        <test-method status="PASS" signature="TC9()[pri:0, instance:module6.Grouping@2173f6d9]" name="TC9" duration-ms="2" started-at="2019-02-16T17:47:20Z" finished-at="2019-02-16T17:47:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC9 -->
-      </class> <!-- module6.Grouping -->
-    </test> <!-- HomePageTest1 -->
-    <test name="HomePageTest2" duration-ms="26" started-at="2019-02-16T17:47:20Z" finished-at="2019-02-16T17:47:20Z">
-      <class name="module6.Grouping">
-        <test-method status="PASS" signature="TC5()[pri:0, instance:module6.Grouping@59906517]" name="TC5" duration-ms="5" started-at="2019-02-16T17:47:20Z" finished-at="2019-02-16T17:47:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC5 -->
-        <test-method status="PASS" signature="TC8()[pri:0, instance:module6.Grouping@59906517]" name="TC8" duration-ms="6" started-at="2019-02-16T17:47:20Z" finished-at="2019-02-16T17:47:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC8 -->
-      </class> <!-- module6.Grouping -->
-    </test> <!-- HomePageTest2 -->
-  </suite> <!-- Grouping Example -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- module7.GridExampleTest -->
+    </test> <!-- TestNG Grid -->
+  </suite> <!-- Main Test Suite -->
 </testng-results>
