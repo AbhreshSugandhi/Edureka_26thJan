@@ -28,6 +28,7 @@ public class BingHomePageObjects1 {
 
 		// Click on the search button
 		btnSearch.click();
+		
 	}
 	
 	public void clickSel() {
